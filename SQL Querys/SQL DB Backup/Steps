@@ -1,0 +1,16 @@
+1) Open SQL Server Management Studio and connect to the target SQL Server instance
+
+2) Right-click on the Databases node and select Restore Database
+
+3) Select Device and click on the ellipsis (...)
+
+4) In the dialog, select Backup devices, click on Add, navigate to the database backup in
+the file system of the server, select the backup, and click on OK.
+
+5) If needed, change the target location for the data and log files in the Files pane
+Note: It is a best practice to place the data and log files on different drives.
+
+6) click on OK
+
+7) This will initiate the database restore. After it completes
+AdventureWorks database installed on SQL Server instance.
